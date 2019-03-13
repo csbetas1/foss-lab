@@ -1,6 +1,7 @@
-# Project Title
+# Class Repository
 
-One Paragraph of project description goes here
+Hey everyone this is our class repo!
+Contribute here to make life easier for you and for everyone else. Hopefully we somehow get all of our lab programs in here.
 
 ## Getting Started
 
