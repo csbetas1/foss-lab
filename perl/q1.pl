@@ -4,16 +4,18 @@ $args = @ARGV;
 
 if ($args != 2) 
 {
-    print "Invalid no: of arguments!\n";
+	print "Invalid no: of arguments!\n";
 } 
 else 
 {
 	$filename = "$ARGV[0].txt";
-	 if (-f $filename) {
-	 print "File Exists!";
+	
+	if (-f $filename) {
+		print "File Exists!";
 	}
 	else {
-	print "File DNE";
+		print "File DNE";
+		exit;
 	}
 }
 
